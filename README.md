@@ -1,4 +1,4 @@
-# 🍦 Ice Cream Trail Mapper - Massachusetts Edition
+# Ice Cream Trail Mapper - Massachusetts Edition
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -7,7 +7,7 @@ An interactive map visualization project that calculates and displays driving ro
 
 ![Ice Cream Trail Map](https://img.shields.io/badge/Status-Complete-success)
 
-## 🎯 Project Overview
+## Project Overview
 
 This project creates a visually appealing, interactive map that shows:
 - **Real driving routes** (not straight lines!) to 10 ice cream stores
@@ -18,14 +18,14 @@ This project creates a visually appealing, interactive map that shows:
 
 ### Key Features
 
-* 🗺️ **Interactive Map**: Built with Folium for smooth pan/zoom functionality
-* 🚗 **Real Routes**: Uses OSRM API for actual driving directions
-* 🎨 **Color-Coded**: Green (0-5 mi), Orange (5-15 mi), Dark Orange (15-30 mi), Red (30+ mi)
-* 📍 **10 Ice Cream Stores**: Carefully selected across Massachusetts
-* 📊 **Summary Statistics**: Total distance, averages, closest/farthest stores
-* 🆓 **No API Keys Required**: Uses free OSRM public API
+* **Interactive Map**: Built with Folium for smooth pan/zoom functionality
+* **Real Routes**: Uses OSRM API for actual driving directions
+* **Color-Coded**: Green (0-5 mi), Orange (5-15 mi), Dark Orange (15-30 mi), Red (30+ mi)
+* **10 Ice Cream Stores**: Carefully selected across Massachusetts
+* **Summary Statistics**: Total distance, averages, closest/farthest stores
+* **No API Keys Required**: Uses free OSRM public API
 
-## 📸 Preview
+## Preview
 
 The generated map includes:
 - Home marker (red house icon) at Highland St, Worcester
@@ -34,7 +34,7 @@ The generated map includes:
 - Professional legend and title overlay
 - Massachusetts state outline
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3.8+**
 - **Folium**: Interactive map visualization
@@ -43,7 +43,7 @@ The generated map includes:
 - **Requests**: HTTP requests to OSRM API
 - **OSRM**: Open Source Routing Machine for driving routes
 
-## 📋 Requirements
+## Requirements
 
 See `requirements.txt` for the full list of dependencies.
 
@@ -54,7 +54,7 @@ geopy>=2.2.0
 requests>=2.26.0
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Installation
 
@@ -100,7 +100,7 @@ xdg-open ice_cream_trail_map.html
 start ice_cream_trail_map.html
 ```
 
-## 📊 Ice Cream Stores Included
+## Ice Cream Stores Included
 
 1. **Gibby's Famous Ice Cream** - Worcester, MA (2.4 mi)
 2. **Swirls and Scoops** - North Grafton, MA (7.9 mi)
@@ -115,7 +115,7 @@ start ice_cream_trail_map.html
 
 **Total Distance**: 529.7 miles (round-trip to visit all 10 stores)
 
-## 🎨 Customization
+## Customization
 
 ### Change Home Location
 
@@ -150,7 +150,7 @@ m = folium.Map(
 )
 ```
 
-## 🌐 Deploy to GitHub Pages
+## Deploy to GitHub Pages
 
 1. **Create a new repo** on GitHub
 2. **Push your code**:
@@ -176,7 +176,7 @@ ice-cream-trail-mapper/
 └── ice_cream_trail_map.html # Generated map (after running script)
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 - Add more ice cream stores
@@ -184,18 +184,18 @@ Contributions are welcome! Feel free to:
 - Add new features (route optimization, weather data, etc.)
 - Fix bugs
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **OSRM Project**: For the free routing API
 - **Folium**: For the excellent Python mapping library
 - **OpenStreetMap**: For map data
 - **PublicaMundi**: For US states GeoJSON data
 
-## 💡 Future Improvements
+## Future Improvements
 
 - [ ] Add route optimization (shortest path to visit all stores)
 - [ ] Include store ratings and reviews
@@ -208,7 +208,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Ahmad Ehtesham**
 - GitHub: [@ahmadratth](https://github.com/ahmadratth)
-- LinkedIn: [Connect with me](https://linkedin.com/in/yourprofile)
+- LinkedIn: [Connect with me](www.linkedin.com/in/mabe475)
 - Email: ahmadehtesham10@gmail.com
 
 ---
